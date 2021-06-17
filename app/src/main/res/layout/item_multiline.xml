@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/bg_item_multiline">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:text="内容    "
+        android:gravity="center"
+        android:textCursorDrawable="@drawable/bl_shape_cursor"
+        android:minWidth="43dp"
+        android:background="@null"
+        android:singleLine="true"
+        android:inputType="textCapSentences"
+        android:adjustViewBounds="true"
+        android:imeOptions="actionDone"
+        android:textSize="15dp"
+        android:textColor="#333333"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

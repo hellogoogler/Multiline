@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.beile.mulitline.view.MultilineEditText
+        android:id="@+id/et_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:lineSpacingExtra="16dp"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:background="@null"
+        android:gravity="left"
+        android:textColor="#FF5260"
+        android:textSize="15dp" />
+
+</RelativeLayout>
